@@ -13,7 +13,7 @@ public $helpers =
 ];
 ```
 
-```activeClass``` est, par défaut, à 'active'.
+```activeClass``` est, par défaut, à ```active```.
 
 ### Utilisation
 
