@@ -28,7 +28,7 @@ class MenuHelper extends Helper
         parent::__construct($view, $config);
 		$this->_defaultConfig = array_merge($this->_defaultConfig, $config);
 		$this->currentUrl = Router::url($this->here, false);
-    }
+	}
 	
 	/**
 	 * Permet de créer un item de menu qui ajoute une classe active si jamais l'élément 
